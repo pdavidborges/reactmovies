@@ -10,6 +10,7 @@ export default function Inicio() {
         <>
             <Banner title="Filmes & Séries">
                 <p>Lista de filmes e séries baseada na API The Movie DB. Confira as produções mais populares do mundo.</p>
+                <small>Projeto construído no curso de React da Coti Informática</small>
             </Banner>
 
             <ContentHome>

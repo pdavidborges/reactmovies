@@ -52,7 +52,7 @@ export default function Detalhes() {
                     <ul>
                         {/* <li>Ano: {JSON.stringify(category === 'movie' ? item.release_date : item.first_air_date).substring(1, 5)}</li>                         */}
                         <li>Ano: {JSON.stringify(category === 'movie' ? item.release_date : item.first_air_date)?.substring(1,5)}</li>
-                        <li><img src={star} alt="" /> {(item.vote_average*10).toFixed(0)}%</li>
+                        <li><img src={star} alt="" /> {(item?.vote_average*10)?.toFixed(0)}%</li>
                     </ul>
 
                     <p>Sinopse: {item.overview ? item.overview : ''}</p>

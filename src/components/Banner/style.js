@@ -19,6 +19,10 @@ export const BannerApp = styled.div `
         text-align: center;
     }
 
+    small{
+        color: #00B1E9;
+    }
+
     input{
         padding: 10px;
         width: 250px;
