@@ -7,7 +7,9 @@ export function Header(){
 
     return(        
         <HeaderApp>
-            <img src={logo} alt="Logo React Movies"/>            
+            <Link to="/">
+                <img src={logo} alt="Logo React Movies"/>            
+            </Link>
             <nav>
                 <Link to="/">Início</Link>
                 <Link to="/filmes">Filmes</Link>
